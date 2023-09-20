@@ -7,6 +7,8 @@ import java.util.List;
 
 import org.junit.jupiter.api.Test;
 
+import br.com.alura.escola.academico.dominio.aluno.Telefone;
+
 class TelefoneTest {
 
 	@Test
