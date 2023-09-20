@@ -3,9 +3,9 @@ package br.com.alura.escola.dominio.aluno;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.jupiter.api.Test;
+import java.util.List;
 
-import br.com.alura.escola.dominio.aluno.Telefone;
+import org.junit.jupiter.api.Test;
 
 class TelefoneTest {
 
@@ -41,5 +41,4 @@ class TelefoneTest {
 		assertEquals(ddd, telefone.getDdd());
 		assertEquals(numero, telefone.getNumero());
 	}
-
 }
